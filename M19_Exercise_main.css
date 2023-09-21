@@ -1,0 +1,46 @@
+/* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Bloco produtos */
+.produtos {
+    max-width: 640px;
+    width: 100%;
+    margin: 56px auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 1%;
+}
+
+/* Bloco produto */
+.produto {
+    border: 1px solid #ccc; /* Estilo de exemplo para o bloco produto */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Elemento produto-imagem dentro de produto */
+.produto__imagem {
+    width: 100%;
+}
+
+/* Elemento produto-nome dentro de produto */
+.produto__nome {
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+/* Elemento produto-descricao dentro de produto */
+.produto__descricao {
+    color: gray;
+}
+
+/* Modificador em-destaque para produto */
+.produto--em-destaque {
+    border: 2px solid gold;
+    padding: 8px;
+    background-color: #ffff42;
+}
